@@ -9,5 +9,8 @@ export default defineConfig({
       provider: "v8",
       include: ["src/**/*.{js,ts,jsx,tsx}"],
     },
+
+    globals: true,
+    environment: 'jsdom',
   },
 });
